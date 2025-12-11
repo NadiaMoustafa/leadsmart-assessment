@@ -41,8 +41,8 @@ A full design document describing an AI lead-qualification agent.
 Includes architecture, sample conversation flows, business case, system components, assumptions, and open questions.
 
 ### Part 6 – Production Engineering
-A complete production deployment plan (for Part 3 or Part 4), including:  
-tech stack, cloud architecture, CI/CD pipelines, monitoring, scaling, cost estimates, operational risks, and remediation strategies.
+A complete production deployment plan (for Part 3), including:  
+tech stack, cloud architecture, CI/CD pipelines, monitoring, cost estimates, operational risks, and remediation strategies.
 
 ---
 
@@ -56,14 +56,14 @@ The repository follows the required structure. Below is a guide to what each fol
 
 ---
 
-## What to Review First
+## What to Review :
 
 - **For data foundation:**  
   Open `part1_exploration.ipynb`
 
 - **For BI experience:**  
   Open `part2_dashboard/app.py`  
-  and read `part2_dashboard/README.md`
+  and read `part2_dlcumentaion/README.md`
 
 - **For predictive intelligence:**  
   - Lead Conversion → `part3_model.ipynb`  
@@ -74,22 +74,10 @@ The repository follows the required structure. Below is a guide to what each fol
   - Production Deployment → `part6_production_plan/`
 
 - **For a quick executive overview:**  
-  Open `SUMMARY.md` or `SUMMARY.pdf`
+  Open `SUMMARY.md` 
 
 ---
 
-## Environment Setup
+###### Environment Setup. only required in part 2 and it explained in details in the part2/readme.md file
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-
-```
-Run the Streamlit dashboard:
-
-```bash
-cd part2_dashboard
-streamlit run app.py
-
-```
+**
