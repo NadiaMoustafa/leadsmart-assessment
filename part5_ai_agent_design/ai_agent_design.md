@@ -83,3 +83,16 @@ This agent will save time, improve lead response rates, and allow sales teams to
 
 ---
 
+## finally
+
+  ### LeadQual AI - Dashboard               
+
+│  Active Calls: 24                       │
+
+│  Qualified Today: 8                     │
+
+│  Avg Call Time: 2:45 mins               │
+
+│  Cost Saved: $1,200                     │
+
+
